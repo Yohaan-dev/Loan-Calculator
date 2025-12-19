@@ -4,8 +4,8 @@ import { FaChevronDown, FaExclamationTriangle } from 'react-icons/fa';
 const Card = () => {
   return (
       <section className='bg-fuchsia-950 p-4 mx-auto pt-10 pb-10'>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 items-center justify-center md:justify-between p-5 rounded-md shadow-inner shadow-black/10'>
-              <div className='w-96 max-w-sm mx-auto bg-white/10 rounded-2xl backdrop-blur-xl p-4 overflow-hidden'>
+          <div className='grid grid-rows-1 md:grid-cols-2 gap-3 items-stretch justify-center'>
+              <div className='w-96 max-w-sm mx-4 bg-white/10 rounded-2xl backdrop-blur-xl p-4 overflow-hidden'>
                   <h1 className='text-white font-serif p-2 border-b-2 border-fuchsia-700'>Loan Details</h1>
                   <div className='mt-4'>
                       <label className='text-white font-serif'>Loan Amount</label>
@@ -47,7 +47,7 @@ const Card = () => {
                   <button className='my-2 px-4 py-1 p-2 rounded-md bg-cyan-500 text-black font-serif w-full hover:scale-110 hover:translate-y-1 transition-transform duration-300'>Calculate</button>
               </div>
           
-              <div className='w-96 max-w-sm mx-auto bg-white/30 rounded-2xl backdrop-blur-xl p-4 overflow-hidden'>
+              <div className='w-96 max-w-sm mx-4 bg-white/30 rounded-2xl backdrop-blur-xl p-4 overflow-hidden'>
                   <h1 className='text-white font-serif p-2 border-b-2 border-cyan-400'>Result</h1>
                   <div className='mt-4'>
                       <div className='flex flex-row items-center space-x-3 justify-between w-full rounded-md px-4 py-3 bg-white my-3'>
