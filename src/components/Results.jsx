@@ -3,8 +3,8 @@ import { FaLongArrowAltRight } from 'react-icons/fa';
 
 const Results = () => {
   return (
-      <section className='bg-fuchsia-950 mx-auto p-4'>
-          <div className='grid grid-rows-1 md:grid-cols-3 mx-4 gap-3 items-stretch justify-center md:justify-evenly'>
+      <section className='bg-fuchsia-950 max-w-7xl mx-4 my-2 md:mx-auto'>
+          <div className='grid sm:grid-rows-1 md:grid-cols-3 gap-3 items-stretch justify-center md:justify-evenly'>
               <div className='w-96 p-4 rounded-md shadow-2xl backdrop-blur-3xl bg-fuchsia-600/30'>
                   <h1 className='text-white text-lg font-semibold'>Payment Schedule</h1>
                   <p className='text-white my-2'>View detailed monthly breakdown</p>

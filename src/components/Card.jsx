@@ -3,8 +3,8 @@ import { FaChevronDown, FaExclamationTriangle } from 'react-icons/fa';
 
 const Card = () => {
   return (
-      <section className='bg-fuchsia-950 py-10'>
-          <div className='grid grid-rows-1 md:grid-cols-2 gap-3 space-y-3 md:space-y-0 items-center justify-center md:mx-8 md:justify-evenly'>
+      <section className='bg-fuchsia-950 py-10 max-w-7xl mx-4 my-2 md:mx-auto'>
+          <div className='grid sm:grid-rows-1 md:grid-cols-2 gap-3 space-y-3 md:space-y-0 items-center justify-center md:mx-8 md:justify-evenly'>
               <div className='w-96 bg-white/10 rounded-2xl backdrop-blur-xl p-4 overflow-hidden'>
                   <h1 className='text-white font-serif p-2 border-b-2 border-fuchsia-700'>Loan Details</h1>
                   <div className='mt-4'>
