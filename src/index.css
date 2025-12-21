@@ -1,5 +1,9 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 body {
     background-color: oklch(29.3% 0.136 325.661);
+    overflow-x: hidden;
 }
